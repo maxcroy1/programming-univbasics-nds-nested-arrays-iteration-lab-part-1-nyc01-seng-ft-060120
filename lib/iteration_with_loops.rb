@@ -9,6 +9,7 @@ def find_even_values(src)
       if src[outer_count][inner_count].even?
         p src[outer_count][inner_count]
       end
+      inner_count += 1
     end
   end
 end
