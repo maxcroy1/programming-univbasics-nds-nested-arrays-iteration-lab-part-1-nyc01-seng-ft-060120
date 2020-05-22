@@ -14,3 +14,15 @@ def find_even_values(src)
     outer_count += 1
   end
 end
+
+outer_count = 0 
+  while outer_count < src.length do
+    inner_count = 0 
+    while inner_count < src[outer_count].length do
+      if src[outer_count][inner_count].even?
+        p src[outer_count][inner_count]
+      end
+      inner_count += 1
+    end
+    outer_count += 1
+  end
