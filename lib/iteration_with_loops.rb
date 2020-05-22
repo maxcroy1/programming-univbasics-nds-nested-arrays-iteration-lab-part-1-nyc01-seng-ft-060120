@@ -5,7 +5,7 @@ def find_even_values(src)
   for i in 0...src.length
     for y in 0...src[i].length
       if src[i][y].even?
-        p src[outer_count][inner_count]
+        p src[i][y]
       end
     end
   end
